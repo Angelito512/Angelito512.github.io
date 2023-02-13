@@ -1,0 +1,47 @@
+body{
+    background-color:aqua;
+}
+
+input[type=submit]{
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: #706b6b;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 10px;
+  }
+
+#contenedor{
+    font-family: 'book antiqua', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(30, 15, 245);
+    border-radius: 200px;
+}
+form{
+    font-size: 15px;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;   
+}
+input {
+    width: 280px;
+    border: 20;
+    border-radius: 10px;
+    
+}
+.field{
+    border:solid 1px #ccc;
+    padding: 10px;
+}
+.field:focus{
+    border-color: rgb(255, 255, 255);
+}
+.center-content{
+    text-align: center;
+}
